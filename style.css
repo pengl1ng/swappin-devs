@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.emptyplace {
+    width: 753px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #114b6b;
+    background: #FFFFFF;
+    margin-top: 70px;
+ }
+.center1 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+}
+.Search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Search form {
+    display: flex;
+    justify-content: center;
+}
+
+.Search:after {content:""; clear:both; display:table}
+
+.Search input {
+    width: 400px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #114b6b;
+    background: #FFFFFF;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+    font-family: Inter;
+}
+
+.Search button {
+    background: #114b6b;
+    border: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.Search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #114b6b;
+}
+
+.Search select {
+    width: 200px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #114b6b;
+    background: #FFFFFF;
+    margin-top: -16px;
+    color: #808080;
+}
+
+.button1 {
+    margin-top: -16px;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.prof {
+    width: 50px;
+    height: 50px;
+    border-radius: 42px;
+    border: 2px solid #114b6b;
+    background: #FFFFFF;
+}
+
+.enter {
+    margin-top: 15px;
+    background-color: #114b6b;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 55px;
+    height: 25px;
+}
+
+.button-search-img {
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+.mini-search-next {
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories {
+    width: 750px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 240px;
+    height: 460px;
+    background-color: #fff5f5;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-picture {
+    min-width: 240px;
+    min-height: 240px;
+}
+
+.card-picture-img {
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.card-name {
+    margin-top: 10px;
+}
+
+.card-name-h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0275em;
+    color: #19191D;
+    height: 50px;
+}
+
+.card-type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-type-h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #44A5FF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.card-adress {
+    margin-top: 30px;
+}
+
+.card-adress-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #787885;
+    min-height: 30px;
+}
+
+.card-footer {
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-price {
+    float: left;
+    margin-top: 15px;
+}
+
+.card-price-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #44A5FF;
+}
+
+.card-like-button {
+    float: right;
+    background: transparent;
+    border-color: #44A5FF;
+    border-radius: 10px;
+    width: 95px;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.card-like-button-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-like-button-p {
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #44A5FF;
+}
+
+.placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #44A5FF;
+    text-align: center;
+}
+.footer {
+    padding: 48px 25px 40px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1000px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.buyers,
+.sellers,
+.cooperate,
+.contact {
+    flex: 1;
+}
+
+.buy-title,
+.sell-title,
+.coop-title,
+.contact-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 20px;
+    margin: 0 0 16px;
+    color: #454545;
+}
+
+.buy-title,
+.sell-title,
+.coop-title,
+.contact-title,
+.buy-link,
+.sell-link,
+.coop-link,
+.contact-link {
+    font-family: YS Text, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.buy-link,
+.sell-link,
+.coop-link,
+.contact-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 20px;
+    padding: 0 0 8px;
+    color: #666;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.rights {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 20px;
+    padding: 0 0 8px;
+    color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
