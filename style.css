@@ -3,32 +3,35 @@
     padding: 0px;
 }
 
-.logo {
-    margin-right: 20px;
+.logo{
+    margin-right: 20px; 
 }
 
-.emptyplace {
+.emptyplace{
     width: 753px;
-    height: 60px;
+    height: 54px;
     border-radius: 20px;
     border: 2px solid #114b6b;
     background: #FFFFFF;
     margin-top: 70px;
- }
-.center1 {
+}
+
+.center1{
     display: flex;
     justify-content: center;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
 }
-.Search {
+
+.Search{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-left: 10px;
 }
-.Search form {
+
+.Search form{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
 
 .Search:after {content:""; clear:both; display:table}
@@ -43,7 +46,7 @@
     outline: none;
     position: relative;
     transition: .3s linear;
-    font-family: Inter;
+    font-family: Inter; 
 }
 
 .Search button {
@@ -57,35 +60,34 @@
     margin-top: -2px;
 }
 
-.Search button:before {
+.Search button:before{
     content: "\f002";
     font-family: FontAwesome;
     color: #114b6b;
 }
 
-.Search select {
+.Search select{
     width: 200px;
     height: 35px;
     padding-left: 15px;
     border-radius: 42px;
     border: 2px solid #114b6b;
     background: #FFFFFF;
-    margin-top: -16px;
     color: #808080;
 }
 
-.button1 {
-    margin-top: -16px;
+.button1{
+    padding-right: 8px; 
 }
 
-.open {
+.open{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     margin-left: 70px;
 }
 
-.prof {
+.prof{
     width: 50px;
     height: 50px;
     border-radius: 42px;
@@ -93,8 +95,8 @@
     background: #FFFFFF;
 }
 
-.enter {
-    margin-top: 15px;
+.enter{
+    margin-top: 8px;
     background-color: #114b6b;
     color: #FFFFFF;
     border-radius: 10px;
@@ -103,13 +105,50 @@
     height: 25px;
 }
 
-.button-search-img {
-    margin-right: 6px;
-    margin-top: 5px;
+@media (min-width: 530px) and (max-width: 1000px){
+    .Search input{
+        width: 270px;
+    }
+    .prof{
+        margin-right: 30px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .enter{
+        margin-right: 30px;
+    }
 }
 
-.mini-search-next {
-    margin-top: 10px;
+.emptyplace-1{
+    width: 320px;
+    height: 1060px;
+    border-radius: 20px;
+    border: 2px solid #114b6b;
+    background: #FFFFFF;
+    margin-top: 60px;
+}
+.emptyplace-2{
+    width: 300px;
+    height: 54px;
+    border-radius: 20px;
+    border: 2px solid #114b6b;
+    background: #FFFFFF;
+    margin: 7px;
+}
+.word-1{
+    color: #2d7ca8;
+    font-family: Inter;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 20px;
+    
+}
+.subject_matter {
+    color: #114b6b;
+}
+.checkbox {
+    margin-left: 10px;
 }
 
 main {
