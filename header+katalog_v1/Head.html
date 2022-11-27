@@ -1,0 +1,219 @@
+ <html>
+    <head>
+        <title>Главная страница</title>
+        <link rel="stylesheet" href="head.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com/" >
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" >
+    </head>
+    <body>
+        <header>
+         <div class="center1">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <div class="emptyplace">
+                <div class="Search">
+                  <div class="mini-search">
+                    <form>
+                    <input type="text" placeholder="Поиск">
+                    <div class="buty"><button type="submit"><img src="img/Search.png" alt="search" class="button1" width="20px" height="20px"></button></div>
+                    </form>
+                  </div>
+                   <div class="mini-search" >
+                    <form action="formdata" method="post" name="form1">
+                    <p><select name="list1">
+                     <option>Город/Район</option>
+                    </select></p>
+                    </form>
+                   </div>
+                 </div>
+              </div>
+              <div class="open">
+                    <div class="prof"></div>
+                    <button class="enter">Войти</button>
+                 </div>
+            </div>
+        </header>
+        <div class="catalog">
+          <div class="emptyplace-1">
+            <div class="emptyplace-2">
+              <h2 class="word-1">Каталог</h2>
+            </div>
+            <div id="brands">
+              <div class="checkbox">
+                  <h4 class="subject_matter">Электроника</h4>
+                  <link rel="stylesheet">
+                  <select id="sort" name="sort" class="form-control">
+                      <option>Смартфоны и смарт-часы</option>
+                      <option>Ноутбуки, планшеты, электроные книги</option>
+                      <option>Компьютеры и комплектующие</option>
+                      <option>Фото и видеокамеры</option>
+                      <option>Игровые приставки и компьютеры</option>
+                      <option>Телевизоры и видеотехника</option>
+                      <option>Часы и электронные будильники</option>
+                      <option>Аудио техника</option>
+                      <option>Офисная техника</option>
+                      <option>Моноблоки и системные блоки</option>
+                      <option>Квадрокоптеры и аксессуары</option>
+                      <option>Аксессуары для электроники</option>
+                  </select>
+              </div>
+              <div class="checkbox">
+                  <h4 class="subject_matter">Одежда</h4>
+                  <link rel="stylesheet">
+                  <select id="sort" name="sort" class="form-control">
+                      <option>Женская</option>
+                      <option>Мужская</option>
+                      <option>Детская</option>
+                  </select>
+              </div>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Обувь</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Женская</option>
+                  <option>Мужская</option>
+                  <option>Детская</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Спорт и отдых</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Зимний спорт</option>
+                  <option>Тренажёры</option>
+                  <option>Водный спорт и отдых на воде</option>
+                  <option>Активные виды отдыха</option>
+                  <option>Фитнес и йога</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Детские товары</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Игрушки и игры</option>
+                  <option>Детское питание</option>
+                  <option>Товары для кормления</option>
+                  <option>Подгузники и гигиена</option>
+                  <option>Коляски и автокресла</option>
+                  <option>Товары для школы и обучения</option>
+                  <option>Товары для мам</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Красота и здоровье</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Макияж</option>
+                  <option>Уход за лицом</option>
+                  <option>Уход за волосами</option>
+                  <option>Парфюмерия</option>
+                  <option>Аппаратная косметология</option>
+                  <option>Маникюр и педикюр</option>
+                  <option>Уход за телом</option>
+                  <option>Мужская косметика</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Канцелярские товары</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Письменные принадлежности</option>
+                  <option>Офисные принадлежности</option>
+                  <option>Бумага</option>
+                  <option>БУмажная продукция</option>
+                  <option>Папки и файлы</option>
+                  <option>Подставки и визитницы</option>
+                  <option>Калькуляторы</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Хобби и творчество</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Пазлы и головоломки</option>
+                  <option>Настольные и карточные игры</option>
+                  <option>Раскрашивание и роспись</option>
+                  <option>Мозаика и фреска</option>
+                  <option>Рукоделие</option>
+                  <option>Создание картин и фоторамок</option>
+                  <option>Наборы для мастер-класса</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Строительство и ремонт</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Инструменты</option>
+                  <option>Сантехника</option>
+                  <option>Водоснабжение</option>
+                  <option>Электрика</option>
+                  <option>Отопление</option>
+                  <option>Газоснабжение</option>
+                  <option>Строительные материалы</option>
+                  <option>Отделочные материалы</option>
+                  <option>Лакокрасочные материалы</option>
+                  <option>Двери, окна и комплектующие</option>
+                  <option>Крепёж и фурнитура</option>
+                  <option>Вентиляция</option>
+                  <option>Сауны и бани</option>
+                  <option>Средства защиты и пожаротушения</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Книги</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Детям и родителям</option>
+                  <option>Учебная литература</option>
+                  <option>Бизнес-литература</option>
+                  <option>Художественная литература</option>
+                  <option>Подарочные издания книг</option>
+                  <option>Нехудожественная литература</option>
+                  <option>Комиксы</option>
+                  <option>Манга</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Автотовары</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Масла и автохимия</option>
+                  <option>Шины и диски</option>
+                  <option>Аккумуляторы и аксессуары</option>
+                  <option>Автоаксессуары и принадлежности</option>
+                  <option>Автозапчасти</option>
+                  <option>Инструменты и оборудование</option>
+                  <option>Автозвук</option>
+                  <option>Мототовары</option>
+                  <option>Гараж и автосервис</option>
+                  <option>Уход за автомобилем</option>
+                  <option>Электроника для авто</option>
+              </select>
+          </div>
+          <div class="checkbox">
+              <h4 class="subject_matter">Продукты питания</h4>
+              <link rel="stylesheet">
+              <select id="sort" name="sort" class="form-control">
+                  <option>Чай, кофе, какао</option>
+                  <option>Выпечка и сладости</option>
+                  <option>Хлеб, лаваши, лепёшки</option>
+                  <option>Соки, воды, напитки</option>
+                  <option>Макароны, крупы, мука</option>
+                  <option>Молочные продукты и яйца</option>
+                  <option>Масла, соусы, специи</option>
+                  <option>Мясо и птица</option>
+                  <option>Овощи, фрукты, зелень</option>
+                  <option>Колбасы, сосиски, деликатесы</option>
+                  <option>Орехи, снэки</option>
+                  <option>Замороженные продукты</option>
+                  <option>Консервация</option>
+                  <option>Рыба, морепродукты</option>
+                  <option>Готовые блюда</option>
+                  <option>Сухие завтраки, мюсли и каши</option>
+              </select>
+          </div>
+          </div>
+        </div>
+    </body>
+ </html>
