@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 75px;
+    width: 500px;
+}
+
+header {
+    text-align: center;
+    width: 400px;
+}
+
+.header-name {
+    font-family: Inter;
+    font-size: 25pt;
+    color: rgb(63, 165, 165);
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.header-logo {
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 10px;
+}
+
+input {
+    width: 470px;
+    height: 25px;
+    font-size: 12pt;
+    font-family: Inter;
+    border-radius: 25px;
+    padding-left: 5px;
+    border-color: rgb(10, 187, 187);
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 12pt;
+    margin-bottom: 5px;
+    color:rgb(59, 123, 218);
+}
+
+.buttons-container {
+    margin-top: 75px;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons {
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: rgb(51, 131, 184);;
+    border-color: rgb(33, 243, 243);
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+}
+
+.btn-text {
+    font-family: Inter;
+    font-size: 15pt;
+    color: azure;
+}
+
+.h6Alt {
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 10pt;
+    color:rgb(59, 123, 218);
+}
+
+.forgive-a {
+    color: rgb(21, 138, 233);
+    font-family: Roboto;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.forgive {
+    margin-top: 5px;
+}
