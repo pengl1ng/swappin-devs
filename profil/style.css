@@ -1,0 +1,404 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+@media (min-width: 530px) and (max-width: 1000px) {
+    .Search input {
+        width: 270px;
+    }
+
+    .prof {
+        margin-right: 30px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .enter {
+        margin-right: 30px;
+    }
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card-profil-photo {
+    margin-left: 0px;
+    min-width: 240px;
+    min-height: 240px;
+}
+
+
+.card-profil {
+    width: 240px;
+    height: 470px;
+    background-color: #f7e6e6;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-prof-name {
+    width: 210px;
+    height: 400px;
+    background-color: #a59494;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.card-picture-profil {
+    min-width: 240px;
+    min-height: 240px;
+}
+
+.card-picture-img-profil {
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.card-prof-name {
+    margin-top: 10px;
+    height: auto;
+}
+
+.card-name-profil {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.card-user-name-h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25%;
+    letter-spacing: 0.0175em;
+    color: #19191D;
+    text-align: center;
+}
+
+.card-footer-profil {
+    text-align: center;
+}
+
+.card-messenger {
+    width: 240px;
+}
+
+.card-messenger-button {
+    background: transparent;
+    border-color: #44A5FF;
+    border-radius: 10px;
+    width: 95px;
+    height: 32px;
+    margin-top: 12px;
+    width: 120px;
+}
+
+.card-messenger-button-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-messenger-button-p {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #44A5FF;
+}
+
+.card-reviews {
+    width: 240px;
+}
+
+.card-reviews-button {
+    background: transparent;
+    border-color: #44A5FF;
+    border-radius: 10px;
+    width: 120px;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.card-reviews-button-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-reviews-button-p {
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #44A5FF;
+}
+
+.card-product {
+    width: 120px;
+}
+
+.card-my-products-button {
+    background: transparent;
+    border-color: #44A5FF;
+    border-radius: 10px;
+    width: 120px;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.card-my-products-button-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-my-products-button-p {
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #44A5FF;
+}
+
+
+.card-add-a-product {
+    width: 240px;
+}
+
+.card-add-a-product-button {
+    background: transparent;
+    border-color: #44A5FF;
+    border-radius: 10px;
+    width: 120px;
+    height: 32px;
+    margin-top: 12px;
+}
+
+.card-add-a-product-button-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-add-a-product-button-p {
+    margin-top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #44A5FF;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.card-picture {
+    min-width: 240px;
+    min-height: 240px;
+}
+
+.card {
+    width: 240px;
+    height: 460px;
+    background-color: #fff5f5;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-picture {
+    min-width: 240px;
+    min-height: 240px;
+}
+
+.card-picture-img {
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.card-name {
+    margin-top: 10px;
+}
+
+.card-name-h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0275em;
+    color: #19191D;
+    height: 50px;
+}
+
+.card-type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-type-h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #44A5FF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.card-adress {
+    margin-top: 30px;
+}
+
+.card-adress-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #787885;
+    min-height: 30px;
+}
+
+.card-footer {
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-price {
+    float: left;
+    margin-top: 15px;
+}
+
+.card-price-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #44A5FF;
+}
+
+
+.placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #44A5FF;
+    text-align: center;
+}
+
+.footer {
+    padding: 48px 25px 40px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1000px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.buyers,
+.sellers,
+.cooperate,
+.contact {
+    flex: 1;
+}
+
+.buy-title,
+.sell-title,
+.coop-title,
+.contact-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 20px;
+    margin: 0 0 16px;
+    color: #454545;
+}
+
+.buy-title,
+.sell-title,
+.coop-title,
+.contact-title,
+.buy-link,
+.sell-link,
+.coop-link,
+.contact-link {
+    font-family: YS Text, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.buy-link,
+.sell-link,
+.coop-link,
+.contact-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 20px;
+    padding: 0 0 8px;
+    color: #666;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.rights {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 20px;
+    padding: 0 0 8px;
+    color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
