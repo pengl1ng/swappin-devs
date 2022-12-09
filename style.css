@@ -7,6 +7,10 @@
     margin-right: 20px; 
 }
 
+.mini-search {
+    margin-top: -2px;
+}
+
 .emptyplace{
     width: 753px;
     height: 54px;
@@ -77,7 +81,7 @@
 }
 
 .button1{
-    padding-right: 8px; 
+    margin-left: -5px;
 }
 
 .open{
@@ -128,6 +132,7 @@
     background: #FFFFFF;
     margin-top: 60px;
 }
+
 .emptyplace-2{
     width: 300px;
     height: 54px;
@@ -136,17 +141,19 @@
     background: #FFFFFF;
     margin: 7px;
 }
+
 .word-1{
     color: #2d7ca8;
     font-family: Inter;
     display: flex;
     margin-top: 12px;
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
+
 .subject_matter {
     color: #114b6b;
 }
+
 .checkbox {
     margin-left: 10px;
 }
@@ -157,12 +164,16 @@ main {
 }
 
 .categories {
+    margin-top: -45px;
     width: 750px;
+    margin-left: 10px;
 }
 
 .cards-container {
     display: flex;
     flex-wrap: wrap;
+    max-height: 750px;
+    margin-left: -15px;
 }
 
 .card {
@@ -285,6 +296,7 @@ main {
     color: #44A5FF;
     text-align: center;
 }
+
 .footer {
     padding: 48px 25px 40px;
     display: flex;
